@@ -38,7 +38,8 @@ li {
 
 .menu {
     padding-top: 41px;
-    padding-left: 100px;
+    padding-left: 150px;
+    
 
 }
 
@@ -59,11 +60,12 @@ li {
     /* убирать подчёркивание у ссылок */
     user-select: none;
     border: none;
+    margin: 0 37px;
 }
 
 .imges {
     padding-top: 38px;
-    padding-right: 40px;
+    padding-right: 0px;
 }
 
 .text_intro {
@@ -73,7 +75,7 @@ li {
 }
 
 .text {
-    width: 500px;
+    width: 100%;
     font-size: 17px;
     line-height: 1.5em;
     word-spacing: 0.1em;
@@ -82,7 +84,8 @@ li {
 
 .text_but {
     margin-top: 305px;
-    margin-left: 220px;
+    /*margin-left: 220px;*/
+    padding-left: 180px;
 }
 
 .button2 {
@@ -122,6 +125,7 @@ li {
     text-decoration: none;
     /* убирать подчёркивание у ссылок */
     user-select: none;
+    
 }
 
 #b3:hover {
@@ -137,4 +141,84 @@ button1:hover {
 
     background: rgb(232, 95, 76);
     background: rgb(152, 15, 0);
+}
+.text_but{
+    margin-left: -120px;
+    margin-bottom: 150px;
+    
+}
+.text2{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 450px){
+    .intro{
+        width: 100%;
+    }
+    .menu{
+        flex-direction: column;
+        text-align: left;
+        
+    }
+    .text_but{
+       margin-left: 0px ;
+    }
+}
+
+.text_prev2{
+    font-size: 25px;
+    color: darkcyan;
+    text-align: center;
+}
+.text_prev2_1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    
+    padding-bottom: 15px;
+    
+    
+}
+.text_prev2_1::after{
+            content:"";
+            position:absolute;
+            bottom:0;
+            left:50%;
+            width:20px;
+            height:2px;
+            margin-left: -10px;
+            background:#000
+}
+
+.view{
+    padding-top: 60px; 
+     
+}
+.view1{
+    margin: 0 98px;
+    
+}
+
+.text_view{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.text_view1{
+    text-align: center;
+    padding-top: 75px;
+    width: 100px;
+    
+}
+
+.text_view2{
+    font-size:15px;
+    text-align: center;
+    padding-top: 40px;
+    width: 300px;
+    margin-left: -100px;
+}
+
+.view123{
+    padding-top: 22px;
 }
