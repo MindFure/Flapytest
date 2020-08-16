@@ -39,7 +39,7 @@ li {
 .menu {
     padding-top: 41px;
     padding-left: 150px;
-    
+
 
 }
 
@@ -125,7 +125,7 @@ li {
     text-decoration: none;
     /* убирать подчёркивание у ссылок */
     user-select: none;
-    
+
 }
 
 #b3:hover {
@@ -142,93 +142,102 @@ button1:hover {
     background: rgb(232, 95, 76);
     background: rgb(152, 15, 0);
 }
-.text_but{
+
+.text_but {
     margin-left: -120px;
     margin-bottom: 150px;
-    
+
 }
-.text2{
+
+.text2 {
     margin-top: 100px;
 }
 
-@media screen and (max-width: 450px){
-    .intro{
+@media screen and (max-width: 450px) {
+    .intro {
         width: 100%;
     }
-    .menu{
+
+    .menu {
         flex-direction: column;
         text-align: left;
-        
+
     }
-    .text_but{
-       margin-left: 0px ;
+
+    .text_but {
+        margin-left: 0px;
     }
 }
 
-.text_prev2{
+.text_prev2 {
     font-size: 25px;
     color: darkcyan;
     text-align: center;
 }
-.text_prev2_1{
+
+.text_prev2_1 {
     font-size: 30px;
     color: black;
     text-align: center;
-    
+
     padding-bottom: 15px;
-    
-    
-}
-.text_prev2_1::after{
-            content:"";
-            position:absolute;
-            bottom:0;
-            left:50%;
-            width:20px;
-            height:2px;
-            margin-left: -10px;
-            background:#000
+
+
 }
 
-.view{
-    padding-top: 60px; 
-     
+.text_prev2_1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    margin-left: -10px;
+    background: #000
 }
-.view1{
+
+.view {
+    padding-top: 60px;
+
+}
+
+.view1 {
     margin: 0 98px;
-    
+
 }
 
-.text_view{
+.text_view {
     text-align: center;
     padding-top: 50px;
-    
+
 }
-.text_view1{
+
+.text_view1 {
     text-align: center;
     padding-top: 75px;
     width: 100px;
-    
+
 }
 
-.text_view2{
-    font-size:15px;
+.text_view2 {
+    font-size: 15px;
     text-align: center;
     padding-top: 40px;
     width: 300px;
     margin-left: -100px;
 }
 
-.view123{
+.view123 {
     padding-top: 22px;
 }
-.textls{
+
+.textls {
     margin-left: 600px;
     margin-top: 130px;
-    
+
 }
 
-.intro2{ 
+.intro2 {
     margin-top: 100px;
     width: 100%;
     height: 936px;
@@ -236,76 +245,123 @@ button1:hover {
     background-size: cover;
 }
 
-.textsl3{
+.textsl3 {
     font-size: 18px;
     line-height: 1.5em;
 }
 
-.textsl31{
+.textsl31 {
     font-size: 30px;
     font-weight: 500;
     line-height: 3em;
 }
 
-.textsl32{
+.textsl32 {
     font-size: 18px;
     text-align: justify;
-    
-}
-.mine{
-    
-    
-    
-    
-    
+
 }
 
-.mine__item1{
-    color:black;
+.mine {}
+
+.mine__item1 {
+    color: black;
     line-height: 3em;
 }
 
 .mine {
-list-style: none;
-margin: 0;
+    list-style: none;
+    margin: 0;
     margin-left: 600px;
     margin-top: 100px;
     width: 500px;
 }
-.mine a {
-width: 100%;
-color: #808285;
-text-decoration: none;
-display: inline-block;
-padding-left: 25px;
-height: 44px;
-line-height: 44px;
-font-size: 20px;
-position: relative;
-transition: .3s linear;
-}
-.mine a:before {
-content: "";
-width: 30px;
-height: 30px;
-border-radius: 50%;
-background: #425273;
-position: absolute;
-left: -30px;
-top: 7px;
-}
-.mine li {position: relative;}
-.mine li:before {
-content: "";
-width: 20px;
-height: 20px;
-border-radius: 50%;
-background: #EC351D;
-position: absolute;
-top: 12px;
-left: -30px;
-z-index: 2;
-transition: .4s ease-in-out;
-}
-.mine li:hover:before {left: -20px;}
 
+.mine a {
+    width: 100%;
+    color: #808285;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 25px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    position: relative;
+    transition: .3s linear;
+}
+
+.mine a:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #425273;
+    position: absolute;
+    left: -30px;
+    top: 7px;
+}
+
+.mine li {
+    position: relative;
+}
+
+.mine li:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #EC351D;
+    position: absolute;
+    top: 12px;
+    left: -30px;
+    z-index: 2;
+    transition: .4s ease-in-out;
+}
+
+.mine li:hover:before {
+    left: -20px;
+}
+
+.text_prev3 {
+    font-size: 25px;
+    color: darkcyan;
+    text-align: center;
+}
+
+.text_prev3_1 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+    padding-bottom: 15px;
+
+
+}
+
+.text_prev3_1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 3px;
+    margin-left: -10px;
+    background: #000
+}
+
+.textls3 {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.icontest3{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.icon3{
+    font-size: 30px;
+    
+}
